@@ -3,10 +3,10 @@ dependencies {
     compile "net.chrisrichardson.examples.monolithic.customersandorders:customer-management-api:$customerManagementApiVersion"
     compile "net.chrisrichardson.examples.monolithic.customersandorders:order-management-api:$orderManagementApiVersion"
 
-    compile "commons-lang:commons-lang:2.6"
-    compile "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
+    compile "commons-lang:commons-lang"
+    compile "org.springframework.boot:spring-boot-starter-web"
 
-    testImplementation "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
     testImplementation "io.rest-assured:rest-assured:$restAssuredVersion"
 
 }
