@@ -1,6 +1,6 @@
 dependencies {
 
-    compile "net.chrisrichardson.examples.monolithic.customersandorders:customer-management-api:$customerManagementApiVersion"
+    compile "net.chrisrichardson.examples.monolithic.customersandorders:customer-details-api:$customerDetailsApiVersion"
     compile "net.chrisrichardson.examples.monolithic.customersandorders:order-management-api:$orderManagementApiVersion"
 
     compile "commons-lang:commons-lang"
